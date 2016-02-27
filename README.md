@@ -9,3 +9,14 @@ application
 
 A online demo is also available at:
 http://demo.fusio-project.org/app
+
+# Build
+
+To build the app you have to execute the following commands:
+
+    npm install
+    bower install
+    grunt
+
+You have also to adjust the `fusio_url` in the `index.html` so that it points
+to your Fusio API endpoint.
